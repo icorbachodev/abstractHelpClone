@@ -28,6 +28,20 @@ The Abstract Help Page Clone replicates the original page's layout and design. W
    ```bash
    git clone https://github.com/your-username/abstract-help-page-clone.git
 
+2. Navigate to the project directory:
+   ```bash
+   cd abstracthelpclone
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Run the development server:
+   ```bash
+   npm run dev
+
+5. Open your browser at http://localhost:3000 to view the project
+
 ## 🚧 Project Status  
 This project is currently **in progress**.  
 Future improvements include:  
