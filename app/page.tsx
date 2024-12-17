@@ -1,101 +1,114 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="m-auto">
+      <div className="text-center space-y-6 p-32 bg-[#dadbf1]">
+        <h1 className="text-6xl font-bold">How can we help?</h1>
+        <div className="relative">
+          <div className="absolute inset-y-0 end-[32rem] flex items-center pointer-events-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="rgba(0, 0, 0, 1);transform: ;msFilter:;">
+              <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
+            </svg>
+          </div>
+          <input type="text" name="Search" id="Search" placeholder="Search" className="block w-2/5 p-4  text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 m-auto" />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+      <div className="flex p-32 space-x-24 text-justify">
+        <div className="flex flex-col space-y-10">
+          <div className="flex space-x-10 items-center">
+            <img src="https://help.abstract.com/hc/theming_assets/01HZH4D4GACXWCRKK6JHQ730XD" alt="Icono" className="w-24 h-24 max-h-[120px]" />
+            <div className="text-2xl space-y-4">
+              <h1 className="font-bold">Using Abstract</h1>
+              <p>Abstract lets you manage, version, and document your designs in one place.</p>
+              <div className="text-[#5466d7]">
+                <a href="#" className="flex items-center hover:underline">
+                  <span>Learn more</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" stroke="#5466d7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex space-x-10 items-center">
+            <img src="https://help.abstract.com/hc/theming_assets/01HZH4D3M8CRR0C2V5GREVR6HK" alt="Icono" className="w-24 h-24 max-h-[120px]" />
+            <div className="text-2xl space-y-4">
+              <h1 className="font-bold">Manage organizations, teams, and projects</h1>
+              <p>Use Abstract organizations, teams, and projects to organize your people and your work.</p>
+              <div className="text-[#5466d7]">
+                <a href="#" className="flex items-center hover:underline">
+                  <span>Learn more</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" stroke="#5466d7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex space-x-10 items-center">
+            <img src="https://help.abstract.com/hc/theming_assets/01HZH4D3S3QY5190TZE3H8ZSVK" alt="Icono" className="w-24 h-24 max-h-[120px]" />
+            <div className="text-2xl space-y-4">
+              <h1 className="font-bold">Authenticate to Abstract</h1>
+              <p>Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+              <div className="text-[#5466d7]">
+                <a href="#" className="flex items-center hover:underline">
+                  <span>Learn more</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" stroke="#5466d7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col space-y-10">
+          <div className="flex space-x-10 items-center">
+            <img src="https://help.abstract.com/hc/theming_assets/01HZH4D45NKFCN3388ZCBJB878" alt="Icono" className="w-24 h-24 max-h-[120px]" />
+            <div className="text-2xl space-y-4">
+              <h1 className="font-bold">Manage your account</h1>
+              <p>Configure your account settings, such as your email, profile details, and password.</p>
+              <div className="text-[#5466d7]">
+                <a href="#" className="flex items-center hover:underline">
+                  <span>Learn more</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" stroke="#5466d7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex space-x-10 items-center">
+            <img src="https://help.abstract.com/hc/theming_assets/01HZH4D38K1S1M9WKWSQZE62YE" alt="Icono" className="w-24 h-24 max-h-[120px]" />
+            <div className="text-2xl space-y-4">
+              <h1 className="font-bold">Manage billing</h1>
+              <p>Change subscriptions and payment details.</p>
+              <div className="text-[#5466d7]">
+                <a href="#" className="flex items-center hover:underline">
+                  <span>Learn more</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" stroke="#5466d7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex space-x-10 items-center">
+            <img src="https://help.abstract.com/hc/theming_assets/01HZH4D3G4S2K93BN3WJPT8600" alt="Icono" className="w-24 h-24 max-h-[120px]" />
+            <div className="text-2xl space-y-4">
+              <h1 className="font-bold">Abstract support</h1>
+              <p>Get in touch with a human.</p>
+              <div className="text-[#5466d7]">
+                <a href="#" className="flex items-center hover:underline">
+                  <span>Learn more</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" stroke="#5466d7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

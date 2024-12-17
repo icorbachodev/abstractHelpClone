@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abstract Help Page Clone  
 
-## Getting Started
+This project is a recreation of the Abstract Help Page as part of a **Frontend Practice** challenge. It focuses on replicating the visual design and structure of the page using modern web development tools.  
 
-First, run the development server:
+## 🚀 Description  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Abstract Help Page Clone replicates the original page's layout and design. While the project includes placeholder links and lacks responsiveness, it serves as a demonstration of static web page development using **Next.js** and **Tailwind CSS**.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Desktop Version:  
+![Desktop Screenshot](path-to-desktop-screenshot.png)  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+(*Add screenshots to showcase the project*)  
 
-## Learn More
+## ✨ Features  
+- Accurate reproduction of the original design.  
+- Built with reusable components for easy scalability.  
+- Static links for navigation (non-functional).  
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technologies Used  
+- **Next.js**  
+- **Tailwind CSS**  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖥️ How to Install and Run the Project  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/abstract-help-page-clone.git
 
-## Deploy on Vercel
+## 🚧 Project Status  
+This project is currently **in progress**.  
+Future improvements include:  
+- Adding responsive design for mobile and tablet screens.  
+- Making navigation links functional.  
+- Enhancing the UI with animations and transitions.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧑‍💻 Author  
+Created by **[icorbachodev](https://github.com/icorbachodev)** as part of a **Frontend Practice** challenge.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License  
+This project is not licensed and is intended for educational purposes only.
